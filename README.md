@@ -4,6 +4,10 @@ A macOS menu bar app for real-time 3D/8D-style binaural spatialization.
 
 Real-time binaural-style stereo spatializer: pan with interaural time difference (ITD) and head-shadow filtering for 3D/8D-style listening.
 
+## Why I made OrbitAudio
+
+I really enjoy good audio that immerses me when I listen to it. My favorite movies, video games, tv shows, etc. all have one thing in common -- they have amazing soundtracks. So, one day I encountered 3D audio on Spotify or YouTube for the first time and was really intrigued by the effect. Over time, I began to wonder how those tracks were made and if I could make my own. Then, after doing some quick research, I came to the conclusion there'd be some legal issues, and a lot of work to do, if I were to make 3D versions of my favorite songs. That, then, led me to the idea behind OrbitAudio; If I can't make my own 3d tracks, then can I make something that lets me "3d" whatever I am listening to? Yes, yes I can, and OrbitAudio is the quickly-made tool that does just that. :)
+
 ## What it does
 
 OrbitAudio takes stereo input and applies:
@@ -30,6 +34,8 @@ OrbitAudio runs as a **menu bar (status bar) app**—no dock icon. On launch you
 ## Pipeline (e.g. BlackHole)
 
 Typical use: route stereo from your DAW or system (e.g. via **BlackHole 16ch**) into OrbitAudio’s input, then set OrbitAudio’s output to your headphones or monitor. The app uses a single stereo in → stereo out path; the rest of the 16ch pipeline can feed other tools.
+
+To use OrbitAudio as intended, I recommend downloading BlackHole to set up a "virtual" audio source. I went with the 16ch version because ChatGPT recommended that for some reason, but I am pretty sure it'd be fine with any version of BlackHole. OrbitAudio uses BlackHole as a middle-man to pass along system audio on your Mac; basically, it lets us throw any audio source through OrbitAudio's spatializer.
 
 ## Low latency
 
