@@ -21,7 +21,7 @@ Together this gives a binaural-style sense of direction with 3D/8D-style orbit m
 
 ## Screenshots
 
-Add a screenshot of the OrbitAudio control panel here (e.g. `docs/panel-screenshot.png`). You can replace this line with an image once you have one.
+![OrbitAudio control panel](docs/panel-screenshot.png)
 
 ## Menu bar app
 
