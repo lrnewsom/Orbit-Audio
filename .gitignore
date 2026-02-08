@@ -1,0 +1,11 @@
+# Build outputs
+NewProject/Builds/**/build/
+NewProject/Builds/MacOSX/build/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
