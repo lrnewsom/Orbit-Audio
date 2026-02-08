@@ -47,12 +47,6 @@ OrbitAudio is optimized for minimal latency:
 - **Build**: Open `NewProject/Builds/MacOSX/OrbitAudio.xcodeproj` in Xcode and build. The built app is at `Builds/MacOSX/build/Debug/OrbitAudio.app` (or Release). Copy to Applications or run from the build folder.
 - **DSP**: The spatializer lives in `Source/Spatializer.cpp` (delay + LPF + LFO + depth/width); the UI in `Source/MainComponent.cpp` passes parameters.
 
-## For your website
-
-Short blurb you can copy to a dedicated project page: OrbitAudio is a menu bar app that applies binaural-style spatialization (ITD, head shadow, orbit modes) to stereo input in real time. It’s built for low latency and works well in a DAW or system-audio pipeline (e.g. with BlackHole). Best with headphones.
-
-**Highlights:** Pan and ITD for direction; head-shadow filtering; Manual / Orbit (3D) / Figure-8 (8D) modes; adjustable depth and width; optional reverb; presets; persisted audio device and low-latency defaults.
-
 ## License
 
 See [LICENSE](LICENSE) in this repository.
